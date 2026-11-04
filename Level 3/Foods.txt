@@ -1,0 +1,5 @@
+Easy: Asun, Bean, Bole, Buns, Dodo, Fish, Fufu, Gala, Koko, Kuli, Kunu, Meat, Okra, Palm, Rice, Soup, Stew, Suya, Wara, Zobo
+
+Medium: BeefPot, EfoRiro, EggRoll, FishPot, Gbegiri, Gizdodo, Iwukoro, Kilishi, MeatPie, MeatPot, OmiObe, PalmNut, RicePot, SoupPot, StewPot, YamMeal, YamSoup, YamStew, CornPap, EggStew
+
+Hard: AbachaNcha, BakedPasty, Bitterleaf, ChoiceMeat, CrispyBole, FriedPlant, FriedSnack, IsiewuDish, JollofRice, NativeSoup, NkwobiDish, OgbonoSoup, PepperSoup, PoundedYam, SeasonedOx, SmokedFish, SpicedMeat, SweetDonut, WaraCheese, GoldenCorn

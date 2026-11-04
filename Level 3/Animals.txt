@@ -1,0 +1,5 @@
+Easy: Bear, Bird, Calf, Colt, Crab, Deer, Duck, Fawn, Fish, Frog, Goat, Hare, Hawk, Lion, Lynx, Moth, Mule, Puma, Seal, Swan
+
+Medium: Buffalo, Caribou, Cheetah, Chicken, Dolphin, Gazelle, Giraffe, Gorilla, Hamster, Jaguar, Leopard, Lobster, Ostrich, Pelican, Penguin, Raccoon, Scorpion, Seagull, Sparrow, Vulture
+
+Hard: Albatross, Alligator, Armadillo, Bandicoot, Barracuda, Bumblebee, Bullshark, Centipede, Chameleon, Cockroach, Dachshund, Dalmatian, Dragonfly, Greyhound, Groundhog, Jellyfish, Millipede, Orangutan, Porcupine, Wolverine

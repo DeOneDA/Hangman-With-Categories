@@ -1,0 +1,5 @@
+Easy: Benin, Chile, China, Egypt, Gabon, Ghana, Haiti, India, Italy, Japan, Kenya, Libya, Malta, Nauru, Nepal, Niger, Qatar, Samoa, Spain, Sudan
+
+Medium: Albania, Algeria, Andorra, Armenia, Austria, Bahamas, Bahrain, Belarus, Belgium, Bolivia, Burundi, Comoros, Croatia, Denmark, Ecuador, Eritrea, Estonia, Finland, Georgia, Germany
+
+Hard: Botswana, Bulgaria, Cambodia, Cameroon, Dominica, Ethiopia, Grenada, Honduras, Hungary, Iceland, Jamaica, Lesotho, Liberia, Malaysia, Maldives, Mongolia, Morocco, Namibia, Paraguay, Portugal

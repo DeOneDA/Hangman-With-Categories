@@ -402,6 +402,8 @@ guessed and can add a hint of their choice while Player 2 guesses the word""")
 
             if w_guess.lower() == secret_word.lower():
                 print("*" * 15 + " WOW! You actually got it. Impressive. " + "*" * 15)
+                for i in range(len(secret_word)):
+                    display_word[i] = secret_word[i]
                 game_over = True
                 break
             else:

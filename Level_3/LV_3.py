@@ -49,10 +49,13 @@ def hangman_lv3():
         print("Category: Animals")
         try:
             with open("Animals.txt", "r") as file:
-                if not file:
+                content = file.read()
+                if not content.strip():
                     print("The Animals.txt file is empty, please fill it appropriately")
-                    return hangman_lv3()
-                
+                    return
+
+                file.seek(0)
+
                 for line in file:
                     line = line.strip()
                 
@@ -74,14 +77,18 @@ def hangman_lv3():
                         choices.extend(parts[1].strip().lower().split(", "))
         except:
             print("Sorry there's no 'Animals.txt' file in the directory, Please create a text file and fill it with the proper syntax")
+            return
     
     if cat == 2:
         print("Category: Foods")
         try:
             with open("Foods.txt", "r") as file:
-                if not file:
+                content = file.read()
+                if not content.strip():
                     print("The Foods.txt file is empty, please fill it appropriately")
-                    return hangman_lv3()
+                    return
+
+                file.seek(0)
                 
                 for line in file:
                     line = line.strip()
@@ -104,14 +111,18 @@ def hangman_lv3():
                         choices.extend(parts[1].strip().lower().split(", "))
         except:
             print("Sorry there's no 'Foods.txt' file in the directory, Please create a text file and fill it with the proper syntax")
+            return
 
     if cat == 3:
         print("Category: Country")
         try:
             with open("Countries.txt", "r") as file:
-                if not file:
+                content = file.read()
+                if not content.strip():
                     print("The Countries.txt file is empty, please fill it appropriately")
-                    return hangman_lv3()
+                    return
+
+                file.seek(0)
                 
                 for line in file:
                     line = line.strip()
@@ -134,6 +145,7 @@ def hangman_lv3():
                         choices.extend(parts[1].strip().lower().split(", "))
         except:
             print("Sorry there's no 'Countries.txt' file in the directory, Please create a text file and fill it with the proper syntax")
+            return
 
     correct = random.choice(choices)
     if level == 1:
@@ -143,8 +155,12 @@ def hangman_lv3():
     elif level == 3:
         lives = 7
 
-    with open("Stages.json", "r") as file:
-        hangman_art = json.load(file)
+    try:
+        with open("Stages.json", "r") as file:
+            hangman_art = json.load(file)
+    except:
+        print("Please put the Stages.json file in the same directory as this file.")
+        return
 
     display_word = ["_" for _ in range(len(correct))]
     display = " ".join(display_word)

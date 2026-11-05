@@ -174,8 +174,8 @@ def hangman_lv2():
             break
 
         if lives < 1:
-            print(f"""*********************** YOU'RE OUT OF LIVES, IT WAS {correct.upper()} ***********************""")
-            print(f"""*********************** YOU LOSE ***********************""")
+            print(f"*********************** YOU'RE OUT OF LIVES, IT WAS {correct.upper()} ***********************")
+            print(f"*********************** YOU LOSE ***********************")
             break
 
         print()
@@ -219,7 +219,7 @@ def hangman_lv2():
             print(f"Guessed so far: {guessed_word}")
             
 
-        if user.lower() not in correct:
+        elif user.lower() not in correct:
             print()
             if user.lower() not in wrong:
                 print("Ouch that's a wrong guess, you loose a life.")

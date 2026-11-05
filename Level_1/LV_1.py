@@ -2,11 +2,10 @@ import random
 
 words = ["TEST", "EXAM", "TASK", "QUIZ", "SHEEP", "DOG", "LION", "CAT", "LIZARD", "TIGER"]
 
-correct = random.choice(words)
-
 def hangman_lv1():
     lives = 6
     max_wrong_attempts = 5
+    correct = random.choice(words)
 
     print("Welcome to Hangman Level 1 Game.")
     print(f"The word you need to guess is {len(correct)} letters long, and you have {lives} lives.")
@@ -18,7 +17,6 @@ def hangman_lv1():
     while True:
         if max_wrong_attempts < 1:
             print("Nice one, your playing has put you in trouble. Since you're not ready to play then goodnight.")
-            print()
             return
         
         if lives < 1:

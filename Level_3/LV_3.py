@@ -268,6 +268,24 @@ def hangman_lv3():
         print()
     print(f"Your Total Points = {total_points} points.")
     print("Thank you for playing.")
+    print("Would you like to play again?")
+    print("Y/N")
+    while True:
+        rerun = input("> ").lower()
+
+        valid = ["y", "n"]
+
+        if rerun not in valid:
+            print("Please put in just 'Y' or 'N'.")
+            continue
+
+        break
+
+    if rerun == "y":
+        return hangman_lv3()
+    else:
+        return
+    
 
 
 hangman_lv3()

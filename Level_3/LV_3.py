@@ -1,6 +1,6 @@
 import random
 import json
-
+total = 0
 def hangman_lv3():
     print("Welcome to Hangman Level 3 Game.")
     print("Please pick a number to play from")
@@ -266,7 +266,8 @@ def hangman_lv3():
             print(f"Guessed so far: {guessed_word}")
 
         print()
-    print(f"Your Total Points = {total_points} points.")
+    total += total_points
+    print(f"Your Running Total Points = {total} points.")
     print("Thank you for playing.")
     print("Would you like to play again?")
     print("Y/N")

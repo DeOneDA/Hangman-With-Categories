@@ -286,4 +286,5 @@ def hangman_lv3():
     else:
         return
 
+
 hangman_lv3()

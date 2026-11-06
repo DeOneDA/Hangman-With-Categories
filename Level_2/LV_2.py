@@ -217,8 +217,7 @@ def hangman_lv2():
             print(f"Word: {display}")
             print(f"Wrong guesses: {wrong_word} (Lives left: {lives})")
             print(f"Guessed so far: {guessed_word}")
-            
-
+        
         elif user.lower() not in correct:
             print()
             if user.lower() not in wrong:
@@ -235,8 +234,7 @@ def hangman_lv2():
             print(f"Wrong guesses: {wrong_word} (Lives left: {lives})")
             print(f"Guessed so far: {guessed_word}")
         
-        print()
-
+    print()
     print("Thank you for playing.")
-
+    
 hangman_lv2()

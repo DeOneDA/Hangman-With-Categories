@@ -75,4 +75,6 @@ def hangman_lv1():
     print()
 
 
+
+
 hangman_lv1()

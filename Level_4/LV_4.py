@@ -477,3 +477,4 @@ guessed and can add a hint of their choice while Player 2 guesses the word""")
 
     display_high_scores(high_scores)
     display_statistics(player_stats)
+hangman_lv4()

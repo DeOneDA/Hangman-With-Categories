@@ -73,7 +73,7 @@ def hangman_lv3():
                         choices.extend(parts[1].strip().lower().split(", "))
                     elif parts[0].strip().lower() == "medium" and level == 2:
                         choices.extend(parts[1].strip().lower().split(", "))
-                    elif parts[0].strip().lower() == "Hard" and level == 3:
+                    elif parts[0].strip().lower() == "hard" and level == 3:
                         choices.extend(parts[1].strip().lower().split(", "))
         except:
             print("Sorry there's no 'Animals.txt' file in the directory, Please create a text file and fill it with the proper syntax")
@@ -107,7 +107,7 @@ def hangman_lv3():
                         choices.extend(parts[1].strip().lower().split(", "))
                     elif parts[0].strip().lower() == "medium" and level == 2:
                         choices.extend(parts[1].strip().lower().split(", "))
-                    elif parts[0].strip().lower() == "Hard" and level == 3:
+                    elif parts[0].strip().lower() == "hard" and level == 3:
                         choices.extend(parts[1].strip().lower().split(", "))
         except:
             print("Sorry there's no 'Foods.txt' file in the directory, Please create a text file and fill it with the proper syntax")
@@ -285,7 +285,5 @@ def hangman_lv3():
         return hangman_lv3()
     else:
         return
-    
-
 
 hangman_lv3()

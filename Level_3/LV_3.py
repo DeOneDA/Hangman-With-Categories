@@ -2,6 +2,7 @@ import random
 import json
 total = 0
 def hangman_lv3():
+    global total
     print("Welcome to Hangman Level 3 Game.")
     print("Please pick a number to play from")
     print("1. Animals")
